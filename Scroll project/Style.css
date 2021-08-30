@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(./Helvetica-Bold.ttf);
+}
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+.pink{
+    color: #FFB6C1;
+}
+header{
+    display: block;
+    height: 100vh;
+    background-image: url(https://source.unsplash.com/1600x900/?tour,water);
+    background-repeat: no-repeat;
+    color: white;
+}
+header #nav{
+    display: flex;
+    position: fixed;
+}
+header #nav .logo img{
+    width: 16%;
+}
+header .links{
+    width: 122%;
+}
+header #nav .links li{
+    list-style-type: none;
+    padding: .5%;
+    padding-right: 12%;
+    padding-top: 1.5%;
+    display: inline-block;
+    font-size: 20px;
+}
+.scroll-link{
+    text-decoration: none;
+    color: white;
+}
+.heading{
+    height:77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.heading a{
+    border:2px solid white;
+    padding: 0.8%;
+    letter-spacing: 3px;
+    margin-top: 4%;
+    background-color: none;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+.heading a:hover{
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+header .heading .content{
+    margin-top: 2%;
+}
+#about{
+    text-align: center;
+    height: 100vh;
+}
+#services{
+text-align: center;
+height: 100vh;
+background-color: rgb(243, 243, 243);
+}
+#tours{
+    text-align: center;
+    height: 100vh;
+}
+.cc{
+    background-color: rgb(124, 124, 124);
+    height: 10vh;
+    text-align: center;
+}
+.cc p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+header .toplinks{
+    color:black;
+}
+
+
