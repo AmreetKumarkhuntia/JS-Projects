@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1724px-Apple_logo_black.svg.png);
+    background-repeat: no-repeat;
+}
+.container .time{
+    font-weight: bolder;
+}
+.pink{
+    color: pink;
+}
+header{
+    text-align: center;
+}
+.container img{
+    height: 63vh;
+    margin: 4%;
+    margin-top: 0%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black ;
+    transition-property: all;
+    transition: 0.5s;
+}
+.container img:hover{
+    height: 80vh;
+}
+.container{
+    display: flex;
+    padding: 20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.content{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 70%;
+    padding:2%;
+    opacity: 0.9;
+}
+.border{
+    border-left: 3px solid black;
+    padding-right: 4px;
+}
+.timers{
+    font-weight: bolder;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}
+.timers div{
+    background-color: pink;
+    margin:auto;
+    padding:2%;
+    transition-property: all;
+    transition: 0.5s;
+}
+.timers div:hover{
+    background-color: black;
+    color: white;
+}
