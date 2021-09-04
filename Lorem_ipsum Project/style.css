@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&display=swap');
+body{
+    font-family: 'BioRhyme', serif;
+    background-color: rgb(233, 233, 233);
+    color:rgb(80, 36, 25);
+}
+header{
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+header #textarray{
+    color:rgb(126, 161, 114);
+}
+header #cursor{
+    color:rgb(80, 36, 25);
+    animation: cursorblink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes cursorblink {
+    from{
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+}
+.font{
+    color:rgb(80, 36, 25);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.form input{
+    width: 2%;
+    margin-left: 0.4%;
+    margin-right: 0.4%;
+    font-family: 'BioRhyme', serif;
+    color:rgb(80, 36, 25);
+}
+.form .button{
+    border: none;
+    cursor: pointer;
+    border: 2px solid rgb(126, 161, 114);
+    margin-left: 1%;
+    background-color: rgb(126, 161, 114);
+    color:rgb(80, 36, 25);
+    font-family: 'BioRhyme', serif;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 95%;
+    font-weight: 600;
+    transition-property: all;
+    transition-duration: 500ms;
+    width: 7%;
+}
+.form .button:active{
+    background-color: rgba(126, 161, 114, 0.11);
+    border: 2px solid rgb(80, 36, 25);
+    transform: translateY(2px);
+}
+.result{
+    background-color: rgb(216, 216, 216);
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 3px;
+}
+.result .head h3{
+    text-align: center;
+    border-bottom: 2px solid rgb(80, 36, 25); 
+    display: inline-block;
+}

@@ -1,7 +1,7 @@
 const months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const weekdays=[ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
 
-let futuredate=new Date(2022,1,26,12,30,00,00,00);
+let futuredate=new Date(2022,1,28,12,30,00,00,00);
 const giveawaydate=document.getElementById("GiveawayDate");
 
 const day=futuredate.getDay();
