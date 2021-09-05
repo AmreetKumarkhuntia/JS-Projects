@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Anton&display=swap");
+body {
+  background-color: #8b8df528;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Allison', cursive;
+  font-size: 4rem;
+  color: #943D33;
+  display: inline-block;
+  border-bottom: 0.2rem solid #943D33;
+}
+
+.questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.questions .question {
+  background-color: #FFE5DC;
+  margin: 1%;
+  -webkit-box-shadow: 7px 7px 10px #00000033;
+          box-shadow: 7px 7px 10px #00000033;
+  padding: 1%;
+  width: 50vw;
+  font-family: 'Anton', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.02rem;
+  border-radius: 4px;
+}
+
+.questions .question .answer {
+  font-size: 85%;
+  overflow: hidden;
+  height: 0px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.questions .question hr {
+  border-top: 2px dashed;
+  display: none;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.questions .question .button {
+  float: right;
+  background-color: #FFE5DC;
+  font-size: 120%;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px dashed;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.questions .question .button:active {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.questions .question .active-button {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+/*# sourceMappingURL=style.css.map */
