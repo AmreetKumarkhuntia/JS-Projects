@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$blue-side:#42ffe6;
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        letter-spacing: 0.1rem;
+        text-align: center;
+        border-bottom: 3px dashed rgb(0, 0, 0);
+        display: inline-block;
+        background-color: rgb(253, 253, 253);
+    }
+}
+.blue{
+    color: $blue-side;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .active{
+        position: fixed;
+        height: 200vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.459);
+        .active-img{
+            margin: 10%;
+            position: absolute;
+            transform: translateY(40vh);
+            height: 80vh;
+        }
+    }
+    img{
+        // background-image: url(/resources/1.jpg);
+        // display: block;
+        height: 60vh;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px rgb(155, 155, 155);
+        transition-property: all;
+        transition: 0.5s;
+    }
+    img:hover{
+        height: 75vh;
+    }
+
+
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        .control-btn{
+            height: 5vh;
+            width: 10vw;
+            margin: 3%;
+        }
+        button{
+            font-weight: 700;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border: none;
+            background-color: #95fff1;
+            border-radius: 4px;
+            transition-property: all;
+            transition-duration: 0.3s;
+            box-shadow: 4px 4px 8px rgb(155, 155, 155);
+        }
+        button:hover{
+            background-color: rgb(231, 231, 231);
+        }
+        button:active{
+            transform: translateY(2px);
+            box-shadow: 1px 1px 4px rgb(155, 155, 155);
+        }
+    }
+}
